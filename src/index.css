@@ -1,0 +1,145 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html
+{
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+body {
+    
+    background-color: #0d0d0d;
+
+}
+
+video {
+
+
+        z-index: -1;
+        max-width: none;
+
+}
+
+
+ul li a:hover {
+
+	color: #F1CCBA;
+
+}
+
+/* ul {
+
+
+  background-color: #1e1e1eee !important;
+
+
+} */
+
+#heroContainer
+{
+  /* height: 59vh; */
+}
+
+#hero-h1 {
+  
+  /* text-shadow: 1px 1px 1px #ffffff8e, 
+               1px 1px 7px #ffffff8e; */
+
+
+}
+
+#hero-text {
+
+  color: white;
+  /* text-shadow: 1px 1px 1px #ffffff8a, 
+               1px 1px 7px #ffffff8a; */
+
+}
+
+#hero-button {
+
+  background-color: #23714D;
+  color: #fff;
+  /* font-size: 13px; */
+  border-radius: 50px;
+  padding: 12px 22px;
+  cursor: pointer;
+  font-weight: 500;
+
+}
+
+#hero-button:hover 
+{
+	background: #0d0d0d;
+	color: #23714D;
+}
+
+#aboutMe-h2
+{
+  z-index: 1;
+  position: relative;
+  color: #fff;
+  text-shadow: 1px 1px 1px #ffffff8a, 
+               1px 1px 1px #ffffff8a;
+  font-size: 1.8em;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding: 25px ;
+}
+
+#aboutMe-h2::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -15px;
+  width: 60px;
+  height: 4px;
+  background: #23714D;
+  z-index: 1;
+
+}
+#aboutMe-p 
+{
+  color: #fff;
+  /* text-align: left; */
+}
+
+#aboutMe-p:hover 
+{
+  /* background: rgb(38, 38, 38, .5); */
+  transition: .5s;
+}
+
+
+#projects-image
+{
+	transition: 1.5s;
+  border: 1px solid #23714D;
+}
+
+#services-img:hover
+{
+
+  background: #1a1a1a;
+	transition: 1.5s;
+  transform: scale(1.03);
+
+}
+
+@media screen and (max-width: 380px) {
+    
+
+    #hero-button 
+    {
+      font-size: 13px;
+    }
+
+  }
+
