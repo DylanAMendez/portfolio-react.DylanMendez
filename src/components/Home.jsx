@@ -3,11 +3,12 @@ import { Header } from "./Header"
 import { HeroContainer } from "./HeroContainer"
 import { AboutMe } from "./AboutMe"
 import  skills  from "../datos/skills.js"
+import Skills from "./Skills.jsx"
 
 
 const skillsList = skills.map( s => { 
 
-    return <skills nameSkill={s.name} description={s.description} imageSkill={s.image} />
+    return <Skills nameSkill={s.name} description={s.description} imageSkill={s.image} />
 
    } );
 
@@ -27,7 +28,7 @@ const Home = () => {
 
       {/* ---Projects---- */}
 
-      <h2 className="font-normal font-fontPoppins text-center sm:text-xl mt-10" id="aboutMe-h2" >Last Project</h2>
+      {/* <h2 className="font-normal font-fontPoppins text-center sm:text-xl mt-10" id="aboutMe-h2" >Last Project</h2> */}
 
       {/* ---Skills---  */}
      
@@ -40,6 +41,7 @@ const Home = () => {
       </div>
       
       </div>
+
 
       <div className=" mt-10 mx-10 text-center justify-center gap-4 grid lg:flex lg:flex-wrap">
         
