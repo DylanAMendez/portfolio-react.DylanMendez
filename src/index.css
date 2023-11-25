@@ -124,6 +124,12 @@ ul li a:hover {
   border: 1px solid #23714D;
 }
 
+
+#projects-div-hidden
+{
+  visibility: hidden;
+}
+
 #services-img:hover
 {
 

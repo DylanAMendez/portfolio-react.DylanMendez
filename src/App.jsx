@@ -46,11 +46,13 @@ function App() {
       </div> */}
 
 
-      {/* ----- */}
+      {/* ---Footer--- */}
 
-      <div className="lg:flex lg:gap-8">
-
-      </div>
+      <footer className=" block  ">
+        <div className="">
+          <p className="text-center">Created by <b>Dylan A. Mendez</b> | Copyright @ 2023 </p>
+        </div>
+      </footer>
     
     </main>
 
