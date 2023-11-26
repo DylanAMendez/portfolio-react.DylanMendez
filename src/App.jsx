@@ -50,7 +50,7 @@ function App() {
 
       <footer className=" block  ">
         <div className="">
-          <p className="text-center">Created by <b>Dylan A. Mendez</b> | Copyright @ 2023 </p>
+          <p className="text-center">Created by <b>Dylan A. Mendez</b> | © { new Date().getFullYear() } </p>
         </div>
       </footer>
     

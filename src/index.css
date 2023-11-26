@@ -124,11 +124,49 @@ ul li a:hover {
   border: 1px solid #23714D;
 }
 
+#projects-div
+{
+	transition: 1.5s;
+  transform: scale(1.0);
+}
+
+#projects-div:hover
+{
+  background: #1a1a1a46;
+	transition: 1.5s;
+  transform: scale(1.10);
+}
 
 #projects-div-hidden
 {
   visibility: hidden;
 }
+
+/* Button information */
+
+#button-information {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bolder;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 20px;
+  border: 2px solid #495057;
+  background: #495057;
+}
+
+#button-information:hover {
+  background: #fff;
+  color: #495057
+}
+
+
+/* -------- */
 
 #services-img:hover
 {
