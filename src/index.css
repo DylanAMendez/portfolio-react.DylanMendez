@@ -41,6 +41,10 @@ ul li a:hover {
 
 } */
 
+
+
+
+
 #heroContainer
 {
   /* height: 59vh; */
@@ -48,8 +52,11 @@ ul li a:hover {
 
 #hero-h1 {
   
-  /* text-shadow: 1px 1px 1px #ffffff8e, 
-               1px 1px 7px #ffffff8e; */
+  background: linear-gradient(90deg, #23714D, #495057);
+  -webkit-background-clip: text;
+  color: transparent; 
+
+  font-family: 'Cinzel', serif;
 
 
 }
@@ -60,6 +67,18 @@ ul li a:hover {
   /* text-shadow: 1px 1px 1px #ffffff8a, 
                1px 1px 7px #ffffff8a; */
 
+}
+
+
+#frontend-developer
+  {
+    color: #23714D;
+  }
+
+#div-aboutMe
+{
+  background: transparent;
+  backdrop-filter: blur(10px);
 }
 
 #hero-button {
@@ -187,3 +206,5 @@ ul li a:hover {
 
   }
 
+
+  /* ---Skills---- */
