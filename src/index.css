@@ -195,6 +195,14 @@ ul li a:hover {
 
 }
 
+
+/*----------  */
+
+#proyecto-div
+{
+ border: 1px solid #23714D;
+}
+
 @media screen and (max-width: 380px) {
     
 
