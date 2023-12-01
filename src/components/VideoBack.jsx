@@ -5,7 +5,7 @@ export const VideoBack = () => {
 
     
     
-    <video src={VideosBack} className='m-[0px] fixed ' muted autoPlay loop playsInline>
+    <video src={VideosBack} className='m-[0px] fixed opacity-60 ' muted autoPlay loop playsInline>
     </video>
 
       // min-h-screen

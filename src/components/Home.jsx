@@ -4,6 +4,9 @@ import { HeroContainer } from "./HeroContainer"
 import { AboutMe } from "./AboutMe"
 import  skills  from "../datos/skills.js"
 import Skills from "./Skills.jsx"
+import Experiencia from "./Experiencia.jsx"
+import UltimoProyecto from "./UltimoProyecto.jsx"
+
 
 
 const skillsList = skills.map( s => { 
@@ -25,6 +28,13 @@ const Home = () => {
       <HeroContainer />
       
       <AboutMe />
+
+
+      <Experiencia />
+
+      <UltimoProyecto />
+
+
 
       {/* ---Projects---- */}
 

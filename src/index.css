@@ -75,10 +75,10 @@ ul li a:hover {
     color: #23714D;
   }
 
-#div-aboutMe
+#aboutMe-container
 {
   background: transparent;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(20px);
 }
 
 #hero-button {
@@ -103,30 +103,29 @@ ul li a:hover {
 {
   z-index: 1;
   position: relative;
-  color: #fff;
-  text-shadow: 1px 1px 1px #ffffff8a, 
-               1px 1px 1px #ffffff8a;
-  font-size: 1.8em;
+  color: #36b077;
+  font-size: 2em;
   font-weight: 700;
   letter-spacing: 2px;
   padding: 25px ;
 }
 
-#aboutMe-h2::before {
+/* #aboutMe-h2::before
+ {
   content: '';
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  bottom: -15px;
+  bottom: 15px;
   width: 60px;
   height: 4px;
   background: #23714D;
   z-index: 1;
 
-}
+} */
+
 #aboutMe-p 
 {
-  color: #fff;
   /* text-align: left; */
 }
 
@@ -165,10 +164,10 @@ ul li a:hover {
 
 #button-information {
   min-width: 130px;
-  height: 40px;
+  /* height: 40px; */
   color: #fff;
   padding: 5px 10px;
-  font-weight: bolder;
+  /* font-weight: bolder; */
   cursor: pointer;
   transition: all 0.3s ease;
   position: relative;

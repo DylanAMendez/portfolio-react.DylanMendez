@@ -6,7 +6,7 @@ const Typing = () => {
   return (
     <div>
 
-    <h1 className=' text-[#fff] bg-slate-500 font-normal font-fontPoppins text-center text-3xl mt-7  ' id='typing-id' >
+    <h1 className=' text-[#e6ffe6]  font-normal font-fontPoppins text-center text-3xl mt-7  ' id='typing-id' >
         <span className=''>
              <Typewriter  
     
