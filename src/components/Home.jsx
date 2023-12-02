@@ -54,7 +54,7 @@ const Home = () => {
       {/* footer */}
 
       <footer className=" right-0 left-0 m-auto  flex w-fit justify-self-center text-center text-white ">Created by
-      <a className="text-[#1c1e] px-2   duration-200 ease-in hover:border-orange-400 hover:text-orange-400" href=""> @DylanAMendez </a>  | © { new Date().getFullYear() } 
+      <a className="text-[#1c1e] px-2   duration-200 ease-in hover:border-orange-400 hover:text-orange-400" href=""> Dylan A. Mendez </a>  | © { new Date().getFullYear() } 
       </footer>
 
     </div>

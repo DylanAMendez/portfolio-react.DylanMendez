@@ -1,10 +1,5 @@
 import { Projects } from "./components/Projects.jsx"
 import { Services } from "./components/Services"
-// import { Skills } from "./components/Skills"
-
-// import  skills  from "./datos/skills.js"
-import projects from "./datos/projects.js"
-
 import { Route, Routes } from 'react-router-dom';
 import  Home  from "./components/Home.jsx"
 import Contact from "./components/Contact.jsx"
@@ -26,7 +21,7 @@ function App() {
       <Route path="/projects" element={<Projects />} />
       <Route path="/services" element={<Services />} />
       <Route path="/contact" element={<Contact />} />
-      
+
       </Routes>
 
     
