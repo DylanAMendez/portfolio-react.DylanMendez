@@ -6,14 +6,9 @@ import  skills  from "../datos/skills.js"
 import Skills from "./Skills.jsx"
 import Experiencia from "./Experiencia.jsx"
 import UltimoProyecto from "./UltimoProyecto.jsx"
+import Contact from "./Contact.jsx"
 
 
-
-const skillsList = skills.map( s => { 
-
-    return <Skills nameSkill={s.name} description={s.description} imageSkill={s.image} />
-
-   } );
 
 
 const Home = () => {
@@ -44,18 +39,23 @@ const Home = () => {
      
      {/* ---Skills---  */}
      <div className="">
+
       <h2 className="text-white font-normal font-serif text-center sm:text-xl mb-10" id="aboutMe-h2" > Skills </h2>
      
-      <div className=" mx-5 md:mx-48 grid grid-cols-3 gap-7 items-center lg:grid lg:grid-cols-3 lg:grid-rows-1 lg:gap-4 lg:items-center mb-6 ">
-      {skillsList}
+      <div className="  ">
+      <Skills />
       </div>
       
       </div>
 
+      <Contact />
 
-      <div className=" mt-10 mx-10 text-center justify-center gap-4 grid lg:flex lg:flex-wrap">
-        
-      </div>
+
+      {/* footer */}
+
+      <footer className=" right-0 left-0 m-auto  flex w-fit justify-self-center text-center text-white ">Created by
+      <a className="text-[#1c1e] px-2   duration-200 ease-in hover:border-orange-400 hover:text-orange-400" href=""> @DylanAMendez </a>  | © { new Date().getFullYear() } 
+      </footer>
 
     </div>
   )

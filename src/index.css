@@ -203,6 +203,32 @@ ul li a:hover {
  border: 1px solid #23714D;
 }
 
+
+/* ---------- */
+
+#div-hover-skills:hover
+{
+  transition: .3s;
+  transform: scale(1.10);
+}
+
+/* -------- */
+
+#java-logo-svg
+{
+  fill: #9CA3AF;
+}
+
+#java-logo-svg:hover
+{
+  fill: #f7df1e;
+}
+
+/* ------ */
+
+
+
+
 @media screen and (max-width: 380px) {
     
 
