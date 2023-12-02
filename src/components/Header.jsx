@@ -8,7 +8,7 @@ import logoDM from '../assets/images/DMLogo.png'
 export const Header = () => {
   return (
     <header className="flex place-content-between items-center mb-8 bg-[#000000b7] "  id='header-id'>
-        <img src={logoDM} alt="Logo" />
+        <img src={logoDM} alt="Logo" className='max-h-16 lg:max-h-32' />
         
         <NavBar />
         
