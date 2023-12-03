@@ -9,6 +9,8 @@ const lastProjects = [
         description: "Este proyecto fue realizado en colaboración con la empresa Moreno Aberturas",
         link: "https://morenoaberturas.com/",
     },
+
+    
     
 ]
 
