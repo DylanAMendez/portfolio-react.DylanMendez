@@ -122,15 +122,14 @@ export const Projects = () => {
             Proyectos Personales
           </h2>
 
-             <div className="2xl:grid 2xl:grid-cols-2 2xl:gap-5">
-
-            
+             <div className="">
+    
             
           {proyectosPersonalesComponents.map((personal, index) => (
             
-            <div key={index} className=" mb-5 mx-5 " >
+            <div key={index} className=" mb-5 mx-5 flex justify-center " >
 
-      <div className=" bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700  sm:flex sm:flex-col sm:items-center w-5/12">
+      <div className=" bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700  sm:flex flex-col items-center ">
       <img className=" sm:max-w-xs  lg:max-w-lg " src={personal.image}  alt="" />
 
    <div className="p-5 lg:m-5 text-left ">
@@ -163,11 +162,11 @@ export const Projects = () => {
           ))}
 
 
-{proyectosPersonalesComponents.map((personal, index) => (
+          {/* {proyectosPersonalesComponents.map((personal, index) => (
             
-            <div key={index} className=" mb-5 mx-5 " >
+            <div key={index} className=" mb-5 mx-5 flex justify-center " >
 
-      <div className=" bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700  sm:flex ">
+      <div className=" bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700  sm:flex items-center ">
       <img className=" sm:max-w-xs  lg:max-w-lg " src={personal.image}  alt="" />
 
    <div className="p-5 lg:m-5 text-left ">
@@ -197,7 +196,7 @@ export const Projects = () => {
 
             
       
-          ))}
+          ))} */}
               
           
           
