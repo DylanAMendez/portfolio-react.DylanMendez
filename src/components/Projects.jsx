@@ -35,7 +35,7 @@ export const Projects = () => {
       <VideoBack />
       <Header />
 
-      <div className=" " id="aboutMe-container">
+      <div className=" " id="">
         <section id="projects">
           <h2 className="font-normal font-fontPoppins text-center sm:text-xl mt-10" id="aboutMe-h2">
             Ultimo Proyecto
