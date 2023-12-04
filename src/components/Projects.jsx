@@ -5,6 +5,13 @@ import BtnInformation from "./BtnInformation.jsx";
 
 import proyectosPersonales from "../datos/ProyectosPersonales.js";
 
+import morenoAberturasImagenUno from '../assets/images/morenoAberturas-Image-Uno.png';
+import morenoAberturasImagenDos from '../assets/images/morenoAberturas-Image-Dos.png';
+import morenoAberturasImagenTres from '../assets/images/morenoAberturas-Image-Tres.png';
+
+import proyectoPersonalCalculadora from '../assets/images/dmCalculadora.png';
+
+
 // Definir las constantes aquí
 const projectComponents = lastProjects.map((project) => {
   const { name, imageUno, imageDos, imageTres, description, link } = project;
@@ -50,7 +57,7 @@ export const Projects = () => {
               <div key={index} className="mx-8 text-center my-7 content-center justify-center" id="projects-div">
 
                 <h3 className="text-[#F1CCBA] font-medium font-fontRoboto pb-5 lg:pb-7 lg:mt-3 sm:my-7">Pagina Inicio</h3>
-                <img src={project.imageUno} className="inline max-h-60 md:max-h-80 lg:max-h-96" alt={project.name} />
+                <img src={morenoAberturasImagenUno} className="inline max-h-60 md:max-h-80 lg:max-h-96" alt={project.name} />
             
               </div>
 
@@ -62,7 +69,7 @@ export const Projects = () => {
               <div key={index} className="mx-8 my-7 text-center content-center justify-center" id="projects-div">
 
                 <h3 className="text-[#F1CCBA] font-medium font-fontRoboto pb-5 lg:pb-7 lg:mt-3">Seccion Articulos</h3>
-                <img src={project.imageDos} className="inline max-h-44 md:max-h-80 lg:max-h-96" alt={project.name} />
+                <img src={morenoAberturasImagenDos} className="inline max-h-44 md:max-h-80 lg:max-h-96" alt={project.name} />
             
               </div>
 
@@ -76,7 +83,7 @@ export const Projects = () => {
               <div key={index} className="mx-8 my-7 text-center content-center justify-center" id="projects-div">
 
                 <h3 className="text-[#F1CCBA] font-medium font-fontRoboto pb-5 lg:pb-7 lg:mt-3">Seccion Detalles</h3>
-                <img src={project.imageTres} className=" inline max-h-44 md:max-h-80 lg:max-h-96" alt={project.name} />
+                <img src={morenoAberturasImagenTres} className=" inline max-h-44 md:max-h-80 lg:max-h-96" alt={project.name} />
             
               </div>
 
@@ -130,7 +137,7 @@ export const Projects = () => {
             <div key={index} className=" mb-5 mx-5 flex justify-center " >
 
       <div className=" bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700  sm:flex flex-col items-center ">
-      <img className=" sm:max-w-xs  lg:max-w-lg " src={personal.image}  alt="" />
+      <img className=" sm:max-w-xs  lg:max-w-lg " src={proyectoPersonalCalculadora}  alt="" />
 
    <div className="p-5 lg:m-5 text-left ">
 

@@ -1,6 +1,7 @@
 
 import lastProjects from "../datos/lastProjects.js";
 import { Link } from "react-router-dom"
+import morenoAberturasImagenTres from '../assets/images/morenoAberturas-Image-Tres.png';
 
 const projectComponents = lastProjects.map((project) => {
     const { name, imageUno, imageDos, imageTres, description, link } = project;
@@ -34,7 +35,7 @@ const UltimoProyecto = () => {
               <div key={index} className="" >
 
         <div className=" bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700  sm:flex m-11 lg:mx-36 2xl:mx-96 ">
-        <img className=" sm:max-w-xs  lg:max-w-lg " src={project.imageTres}  alt="" />
+        <img className=" sm:max-w-xs  lg:max-w-lg " src={morenoAberturasImagenTres}  alt="" />
 
      <div className="p-5 lg:m-5 text-left ">
 
