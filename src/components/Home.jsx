@@ -39,7 +39,7 @@ const Home = () => {
      {/* ---Skills---  */}
      <div className="">
 
-      <h2 className="text-white font-normal font-serif text-center sm:text-xl mb-10" id="aboutMe-h2" > Skills </h2>
+      <h2 className="text-white font-normal font-serif text-center sm:text-xl mb-10" id="aboutMe-h2" > Habilidades </h2>
      
       <div className="  ">
       <Skills />

@@ -137,7 +137,9 @@ export const Projects = () => {
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"> { personal.name } </h5>
 
       <p className="mb-3 font-normal text-gray-700 dark:text-gray-400 lg:py-5">
-          { personal.description }
+           Desarrollada para facilitar cálculos diarios de manera eficiente y elegante. <br /> 
+           Inspirada por la necesidad de una herramienta versátil y fácil de usar. <br /> <br />
+           Esta calculadora ofrece funciones básicas adaptándose a diversas necesidades matemáticas.
       </p>
 
       <a href={personal.link} className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-[#fff] bg-[#495057] rounded-lg focus:ring-blue-300  dark:hover:bg-blue-700 dark:focus:ring-blue-800 " rel="noreferrer"  target="_blank" >

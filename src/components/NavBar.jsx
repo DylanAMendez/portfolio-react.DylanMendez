@@ -27,13 +27,11 @@ export const NavBar = () => {
             <Link to="/">Home</Link>
         </li>
 
+
         <li className='mb-8 sm:mb-0'>
         <Link to="/projects">Projects</Link>
         </li>
 
-        <li className='mb-8 sm:mb-0'>
-        <Link to="/services">Services</Link>
-        </li>
 
         <li className='mb-8 sm:mb-0'>
         <a href="#contact">Contacto</a>

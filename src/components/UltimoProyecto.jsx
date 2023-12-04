@@ -41,8 +41,9 @@ const UltimoProyecto = () => {
                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Catálogo de Productos </h5>
 
         <p className="mb-3 font-normal text-gray-700 dark:text-gray-400 lg:py-5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime cupiditate culpa dolores, et minima aperiam quisquam dolorem exercitationem a numquam vitae quam omnis nisi sint provident alias. Quod, nesciunt laborum. <br /> <br />
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex laudantium alias explicabo ullam sunt iusto impedit, ab deleniti amet quae. Quaerat, architecto aperiam praesentium error quod dolorum velit neque dolores?
+        Proyecto desarrollado para simplificar la función de mostrar productos y servicios de una manera práctica y accesible. <br /> <br />
+        Los usuarios pueden encontrar una amplia selección de productos de aberturas organizadas por linea, modelos, etc. <br /> <br />
+        Proyecto utilizando HTML, CSS y JavaScript nativo.
         </p>
 
         <a href={project.link} className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-[#fff] bg-[#495057] rounded-lg focus:ring-blue-300  dark:hover:bg-blue-700 dark:focus:ring-blue-800 " rel="noreferrer"  target="_blank" >
@@ -70,7 +71,7 @@ const UltimoProyecto = () => {
 
           <div className="text-center lg:mb-10">
             <button className="content-center">
-            <Link to="/projects"><a className="text-center font-fontRoboto font-medium " id="button-information">Ir a Proyectos</a></Link>
+            <Link to="/projects"><a className="text-center font-fontRoboto font-medium " id="hero-button">Ir a Proyectos</a></Link>
             </button>
         </div>
 

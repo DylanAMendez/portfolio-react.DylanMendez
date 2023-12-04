@@ -12,12 +12,11 @@ const BtnInformation = () => {
 
   return (
     <div className=" text-center font-fontRoboto">
-        { show ? <h2 className="bg-[#1c1c1ce0] text-[#fff] font-fontRoboto mb-2 " > 
+        { show ? <h2 className=" text-[#fff] font-fontRoboto mb-2 " id="aboutMe-container" > 
 
-        <li> Tecnologias utilizadas:  Html, Css y Vanilla JavaScript.</li>
-        <li> Creé el proyecto desde 0, comenze diseñandolo y mostrando borradores de una posible pagina que le podria interesar al cliente. </li>
-        <li> Creé un catálogo de productos atractivo y organizado, implementé navegación intuitiva para una experiencia de
-        usuario mejorada, optimicé el sitio web para una búsqueda eficiente de productos y mejor usabilidad. </li> 
+        <li> Proyecto desarrollado para simplificar la función de mostrar productos y servicios de una manera práctica y accesible.</li>
+        <li> Los usuarios pueden encontrar una amplia selección de productos de aberturas organizadas por linea, modelos, etc. </li>
+        <li> Tecnologias utilizadas: HTML, CSS y JavaScript nativo. </li> 
         
          </h2> : "" }
         <button onClick={handleClick} id="button-information" > {show ? "↑ Ocultar Informacion ↑" : "» Mas Información «" }  </button>

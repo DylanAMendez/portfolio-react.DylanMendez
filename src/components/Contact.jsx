@@ -13,7 +13,8 @@ const Contact = () => {
 
         
 
-        <p className="text-white">Contactame para contribuir en tu equipo</p>
+        <p className="text-white">¡No dudes en ponerte en contacto conmigo </p>
+        <p className="text-white">para contribuir en tu equipo!</p>
 
        <div className=" text-white grid grid-cols-2 gap-5 lg:flex lg:items-center mt-5">
 
