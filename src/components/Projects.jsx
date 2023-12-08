@@ -11,6 +11,7 @@ import morenoAberturasImagenTres from '../assets/images/morenoAberturas-Image-Tr
 
 import proyectoPersonalCalculadora from '../assets/images/dmCalculadora.png';
 
+import proyectoPersonalTodoList from '../assets/images/dmTodoList.png';
 
 // Definir las constantes aquí
 const projectComponents = lastProjects.map((project) => {
@@ -30,9 +31,9 @@ const projectComponents = lastProjects.map((project) => {
 const proyectosPersonalesComponents = proyectosPersonales.map((personal) =>
 {
 
-  const { name, image, description, link } = personal;
+  const { name, image, description, descriptionUno, descriptionDos, link } = personal;
   
-  return { name, image, description, link, };
+  return { name, image, description, descriptionUno, descriptionDos, link, };
 
 });
 
@@ -129,24 +130,24 @@ export const Projects = () => {
             Proyectos Personales
           </h2>
 
-             <div className="">
+             <div className=" lg:grid lg:grid-cols-2">
     
             
           {proyectosPersonalesComponents.map((personal, index) => (
             
             <div key={index} className=" mb-5 mx-5 flex justify-center " >
 
-      <div className=" bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700  sm:flex flex-col items-center ">
-      <img className=" sm:max-w-xs  lg:max-w-lg " src={proyectoPersonalCalculadora}  alt="" />
+      <div className=" bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700  flex flex-col items-center ">
+      <img className="  max-w-xs max-h-80  lg:h-[400px] lg:max-w-lg 2xl:h-[400px] " src={personal.image}  alt="" />
 
    <div className="p-5 lg:m-5 text-left ">
 
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"> { personal.name } </h5>
 
       <p className="mb-3 font-normal text-gray-700 dark:text-gray-400 lg:py-5">
-           Desarrollada para facilitar cálculos diarios de manera eficiente y elegante. <br /> 
-           Inspirada por la necesidad de una herramienta versátil y fácil de usar. <br /> <br />
-           Esta calculadora ofrece funciones básicas adaptándose a diversas necesidades matemáticas.
+           {personal.description} <br />
+           {personal.descriptionUno} <br />
+           {personal.descriptionDos} <br />
       </p>
 
       <a href={personal.link} className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-[#fff] bg-[#495057] rounded-lg focus:ring-blue-300  dark:hover:bg-blue-700 dark:focus:ring-blue-800 " rel="noreferrer"  target="_blank" >
