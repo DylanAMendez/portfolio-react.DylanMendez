@@ -13,7 +13,9 @@ import proyectoPersonalCalculadora from '../assets/images/dmCalculadora.png';
 
 import proyectoPersonalTodoList from '../assets/images/dmTodoList.png';
 
-// Definir las constantes aquí
+import todoList_ProyectoPersonal from "../datos/TodoList_ProyectoPersonal.js";
+
+// project moreno aberturas
 const projectComponents = lastProjects.map((project) => {
   const { name, imageUno, imageDos, imageTres, description, link } = project;
 
@@ -28,6 +30,7 @@ const projectComponents = lastProjects.map((project) => {
 });
 
 
+// project personal CALCULADORA
 const proyectosPersonalesComponents = proyectosPersonales.map((personal) =>
 {
 
@@ -36,6 +39,16 @@ const proyectosPersonalesComponents = proyectosPersonales.map((personal) =>
   return { name, image, description, descriptionUno, descriptionDos, link, };
 
 });
+
+// project personal TO DO LIST
+const todoListComponents = todoList_ProyectoPersonal.map((personal) =>
+{
+
+  const { name, image, description, descriptionUno, descriptionDos, link } = personal;
+
+  return { name, image, description, descriptionUno, descriptionDos, link };
+
+} )
 
 export const Projects = () => {
   return (
@@ -132,6 +145,43 @@ export const Projects = () => {
 
              <div className=" lg:grid lg:grid-cols-2">
     
+             {todoListComponents.map((personal, index) => (
+            
+            <div key={index} className=" mb-5 mx-5 flex justify-center " >
+
+      <div className=" bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700  flex flex-col items-center ">
+      <img className="  max-w-xs max-h-80  lg:h-[400px] lg:max-w-lg 2xl:h-[400px] " src={personal.image}  alt="" />
+
+   <div className="p-5 lg:m-5 text-left ">
+
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"> { personal.name } </h5>
+
+      <p className="mb-3 font-normal text-gray-700 dark:text-gray-400 lg:py-5">
+           {personal.description} <br />
+           {personal.descriptionUno} <br />
+           {personal.descriptionDos} <br />
+      </p>
+
+      <a href={personal.link} className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-[#fff] bg-[#495057] rounded-lg focus:ring-blue-300  dark:hover:bg-blue-700 dark:focus:ring-blue-800 " rel="noreferrer"  target="_blank" >
+          ver pagina
+         
+          <svg className="w-[24px] h-[24px] ml-1 text-[#fff] " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
+
+      <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.2" d="M15 11v4.833A1.166 1.166 0 0 1 13.833 17H2.167A1.167 1.167 0 0 1 1 15.833V4.167A1.166 1.166 0 0 1 2.167 3h4.618m4.447-2H17v5.768M9.111 8.889l7.778-7.778"/>
+
+        </svg>
+
+      </a>
+
+
+  </div>
+</div>
+
+            </div>
+
+            
+      
+          ))}
             
           {proyectosPersonalesComponents.map((personal, index) => (
             
