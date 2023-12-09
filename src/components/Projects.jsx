@@ -150,7 +150,7 @@ export const Projects = () => {
             <div key={index} className=" mb-5 mx-5 flex justify-center " >
 
       <div className=" bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700  flex flex-col items-center ">
-      <img className="  max-w-xs max-h-80  lg:h-[400px] lg:max-w-lg 2xl:h-[400px] " src={personal.image}  alt="" />
+      <img className="  max-w-xs max-h-80  lg:h-[400px] lg:max-w-lg 2xl:h-[400px] " src={proyectoPersonalTodoList}  alt="" />
 
    <div className="p-5 lg:m-5 text-left ">
 
@@ -188,7 +188,7 @@ export const Projects = () => {
             <div key={index} className=" mb-5 mx-5 flex justify-center " >
 
       <div className=" bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700  flex flex-col items-center ">
-      <img className="  max-w-xs max-h-80  lg:h-[400px] lg:max-w-lg 2xl:h-[400px] " src={personal.image}  alt="" />
+      <img className="  max-w-xs max-h-80  lg:h-[400px] lg:max-w-lg 2xl:h-[400px] " src={proyectoPersonalCalculadora}  alt="" />
 
    <div className="p-5 lg:m-5 text-left ">
 
