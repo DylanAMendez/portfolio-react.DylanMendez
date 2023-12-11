@@ -3,7 +3,7 @@
 const todoList_ProyectoPersonal = [
 
     {
-        name: "Todo List",
+        name: "To do List",
         image: "/src/assets/images/dmTodoList.png",
         description: "Simple Todo List hecha con React.",
         descriptionUno: "Utilce los Hooks: useRef, useReduce.",
