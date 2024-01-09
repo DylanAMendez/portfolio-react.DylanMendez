@@ -1,6 +1,8 @@
 
 import muroDeFirmas from '../assets/images/MuroDeFirmas-viewMobile.png'
 import binaryAppImg from '../assets/images/binary-app.png'
+import lofiRainImg from '../assets/images/LofiRain_Desktop.png'
+
 
 const MuroDeFirmas = [
 
@@ -16,6 +18,17 @@ const MuroDeFirmas = [
     },
 
     {
+        name: "Lofi Rain",
+        image: lofiRainImg,
+        description: "Una aplicación relajante que ofrece una experiencia inmersiva con música lofi rain y un fondo de lluvia animado.",
+        descriptionUno: "Controla fácilmente la música y reinicia la pista con un solo clic para mantener la experiencia sin interrupciones.",
+        descriptionDos: "",
+        descriptionTres: "Desarrollada con React, HTML y CSS para una interfaz de usuario interactiva y amigable.",
+        descriptionCuatro: "",
+        link: "https://lofi-rain.vercel.app/",
+    },
+
+    {
         name: "Binary App",
         image: binaryAppImg,
         description: "Los usuarios pueden convertir números de formato decimal a binario y viceversa.",
@@ -24,7 +37,10 @@ const MuroDeFirmas = [
         descriptionTres: "Utiliza hooks de React como useState para gestionar el estado de las entradas y las conversiones",
         descriptionCuatro: "",
         link: "https://binary-app.vercel.app/",
-    }
+    },
+
+
+
 
 ]
 
