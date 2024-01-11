@@ -1,10 +1,10 @@
 
 import muroDeFirmas from '../assets/images/MuroDeFirmas-viewMobile.png'
-import binaryAppImg from '../assets/images/binary-app.png'
+import binaryAppImg from '../assets/images/binary-app_desktop.png'
 import lofiRainImg from '../assets/images/LofiRain_Desktop.png'
 
 
-const MuroDeFirmas = [
+const personalProjects = [
 
     {
         name: "Muro de Firmas",
@@ -33,9 +33,9 @@ const MuroDeFirmas = [
         image: binaryAppImg,
         description: "Los usuarios pueden convertir números de formato decimal a binario y viceversa.",
         descriptionUno: "Herramienta educativa y práctica para estudiantes, educadores y profesionales interesados en la informática y matemáticas.",
-        descriptionDos: "Actualiza los resultados de la conversión en tiempo real, mejorando la experiencia del usuario.",
+        descriptionDos: "",
         descriptionTres: "Utiliza hooks de React como useState para gestionar el estado de las entradas y las conversiones",
-        descriptionCuatro: "",
+        descriptionCuatro: "Actualiza los resultados de la conversión en tiempo real, mejorando la experiencia del usuario.",
         link: "https://binary-app.vercel.app/",
     },
 
@@ -44,4 +44,4 @@ const MuroDeFirmas = [
 
 ]
 
-export default MuroDeFirmas
+export default personalProjects

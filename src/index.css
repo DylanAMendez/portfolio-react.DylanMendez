@@ -241,3 +241,8 @@ ul li a:hover {
 
 
   /* ---Skills---- */
+#projectPersonal
+{
+  background: transparent;
+  backdrop-filter: blur(50px);
+}
