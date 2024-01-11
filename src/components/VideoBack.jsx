@@ -1,19 +1,16 @@
-import VideosBack from '../assets/images/videoBack.mp4'
+import VideosBack from '../assets/images/videoBack.mp4';
 
-export const VideoBack = () => {
+export const VideoBack = () =>
+{
   return (
-
-    
-    
-    <video src={VideosBack} className='m-[0px] fixed opacity-60 ' muted autoPlay loop playsInline>
-    </video>
-
-      // min-h-screen
-
-
-  )
-}
-
-
-// <div id="particles-js"><video width="100%" height="768" muted autoplay loop playsinline>
-//	<source src="videoBack.mp4" type="video/mp4"></div>
+    <video
+      src={VideosBack}
+      className='m-[0px] fixed opacity-60 '
+      id='background-video'
+      muted
+      autoPlay
+      loop
+      playsInline
+    ></video>
+  );
+};
