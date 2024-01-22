@@ -10,7 +10,7 @@ const Typing = () => {
         <span className=''>
              <Typewriter  
     
-            words={['Frontend' ,'Developer']}
+            words={['Frontend-Developer' ,'']}
             loop={0}
             cursor
             typeSpeed={70}
