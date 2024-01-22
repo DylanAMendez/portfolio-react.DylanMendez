@@ -22,22 +22,10 @@ const Home = () =>
 
       <HeroContainer />
 
-      <AboutMe />
-
-
       <Experiencia />
 
       <UltimoProyecto />
 
-
-
-      {/* ---Projects---- */}
-
-      {/* <h2 className="font-normal font-fontPoppins text-center sm:text-xl mt-10" id="aboutMe-h2" >Last Project</h2> */}
-
-      {/* ---Skills---  */}
-
-      {/* ---Skills---  */}
       <div className="">
 
         <h2 className="text-white font-normal font-serif text-center sm:text-xl mb-10" id="aboutMe-h2" > Habilidades </h2>
@@ -47,6 +35,8 @@ const Home = () =>
         </div>
 
       </div>
+
+      <AboutMe />
 
 
 
