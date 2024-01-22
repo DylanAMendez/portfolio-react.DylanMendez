@@ -59,9 +59,9 @@ const Experiencia = () =>
           <p className=" text-base font-normal text-[#D8D9DC] ">
             Soporte técnico, desarrollo de páginas web y hojas de datos de productos.
             <br />
-            Desarrollar la interfaz de los componentes y Mejorar la experiencia del usuario
+            Desarrollo de la interfaz de los componentes y Mejoras sobre la experiencia del usuario.
             <br /> <br />
-            Tecnologías utilizadas: Microsoft Word, Git, Tailwind CSS , JavaScript , React
+            Tecnologías utilizadas: Microsoft Word, Git, Tailwind CSS , JavaScript , React.
           </p>
 
         </li>
