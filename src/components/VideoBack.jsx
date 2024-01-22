@@ -5,7 +5,7 @@ export const VideoBack = () =>
   return (
     <img
       src={VideosBack}
-      className='m-[0px] fixed opacity-100 '
+      className='m-[0px] fixed opacity-20 '
       id='background-video'
     ></img>
   );
