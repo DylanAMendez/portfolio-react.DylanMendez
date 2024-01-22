@@ -226,16 +226,21 @@ ul li a:hover {
 
 /* -------- */
 
-#java-logo-svg
-{
-  fill: #9CA3AF;
-}
 
-#java-logo-svg:hover
+#java-logo-svg
 {
   fill: #f7df1e;
 }
 
+#typescript-logo-svg
+{
+  fill: #9CA3AF;
+}
+
+#typescript-logo-svg:hover
+{
+  fill: #1976d2;
+}
 /* ------ */
 
 
