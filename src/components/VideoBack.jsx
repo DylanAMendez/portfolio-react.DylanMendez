@@ -1,16 +1,12 @@
-import VideosBack from '../assets/images/videoBack.mp4';
+import VideosBack from '../assets/images/galaxy-01.jpg';
 
 export const VideoBack = () =>
 {
   return (
-    <video
+    <img
       src={VideosBack}
-      className='m-[0px] fixed opacity-60 '
+      className='m-[0px] fixed opacity-100 '
       id='background-video'
-      muted
-      autoPlay
-      loop
-      playsInline
-    ></video>
+    ></img>
   );
 };
