@@ -41,13 +41,10 @@ const Experiencia = () =>
             ∗ Administración de bases de datos SQL Server y SQLite. <br />
             ∗ Mejora de la UI/UX con Blazor, Razor, DevExpress y Bootstrap. <br />
             ∗ Soporte técnico y mantenimiento de infraestructura de software. <br />
-              Tecnologías: .NET Framework, ASP.NET Core, C#, Entity Framework, LINQ, SQL Server, JavaScript, Tailwind
-              CSS. 
             
             <br /> <br />
-
-            Tecnologías: .NET Framework, ASP.NET Core, C#, Entity Framework, LINQ, SQL Server, JavaScript, Tailwind
-                          CSS.
+              Tecnologías: .NET Framework, ASP.NET Core, C#, Entity Framework, LINQ, SQL Server, JavaScript, Tailwind
+              CSS. 
           </p>
 
         </li>
